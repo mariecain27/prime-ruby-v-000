@@ -30,9 +30,8 @@ def prime?(n)
   range.each do |i|
     if (n % i) == 0
      return false
-    else
-      return true
     end
   end
+  true
   #binding.pry
 end
